@@ -3,7 +3,7 @@
 Visualise ζ sur une grille du plan, dans trois algèbres différentes, puis
 détecte et classe ses minima locaux (zéros triviaux vs non triviaux).
 
-> **Dépendance commune : ce projet nécessite le dépôt [`lib`](../lib).**
+> **Dépendance commune : ce projet nécessite le dépôt [`lib`]https://github.com/Lain-Iwakvra/lib.**
 > Voir [Installation](#installation).
 
 ## Les trois algèbres
@@ -34,13 +34,10 @@ zeta_minima/    cartes de minima + CSV de zéros
 ## Installation
 
 ```bash
-git clone https://github.com/<ton_compte>/lib.git
-cd lib && pip install numpy numba
-```
+# 1. récupérer lib en frère du dossier courant
+git clone https://github.com/Lain-Iwakvra/lib.git
 
-Puis, à côté du dépôt courant :
-
-```bash
+# 2. rendre lib.py importable depuis ce dossier
 ln -s ../lib/lib.py .
 ```
 
